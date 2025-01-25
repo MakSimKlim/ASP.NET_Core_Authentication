@@ -1,7 +1,6 @@
 using Authentication.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using Authentication.Models;
 
 namespace Authentication.Controllers
 {
