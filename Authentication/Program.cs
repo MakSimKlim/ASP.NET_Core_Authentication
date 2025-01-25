@@ -20,6 +20,8 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>() // Изменено: замен
     .AddDefaultTokenProviders();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+builder.Logging.AddConsole();
+
 
 // Продление протокола https со стандартных 30 дней на год
 //****************************************************************
